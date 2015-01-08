@@ -46,7 +46,7 @@ def get_tweets(connection):
 	auth = OAuth1(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET)
 	last_tweet_id = read_last_tweet_id(connection)
 	if last_tweet_id == 0:
-		payload = {'q': '#PresPollSL', 'count': 200 }
+		payload = {'q': '#PresPollSL', 'count': 200}
 	else:
 		last_tweet_id = int(last_tweet_id)
 		payload = {'q': '#PresPollSL', 'count': 200, 'since_id': last_tweet_id }

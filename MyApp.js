@@ -8,7 +8,7 @@ var tweets = mongoose.model('Tweets', new Schema({ timestamp: String, tweet: Obj
 
 app.get('/', function(req, res) {
 	console.log(req.path)
-    res.sendFile('index.html', {root: 'Front' })
+    res.sendFile('index.html', {root: 'Front/html' })
 });
 
 app.get('/latest', function(req, res) {
@@ -17,6 +17,16 @@ app.get('/latest', function(req, res) {
 	query.exec(function(err, document) {
 		res.json(document);
 	})
+});
+
+app.get('/scripts/data.js', function(req, res) {
+	console.log(req.path)
+    res.sendFile('index.js', {root: 'Front/scripts' })
+});
+
+app.get('/css/style.css', function(req, res) {
+	console.log(req.path)
+    res.sendFile('style.css', {root: 'Front/css' })
 });
 
 var server = app.listen(3000, function () {
