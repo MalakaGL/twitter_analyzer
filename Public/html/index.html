@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<script type="text/javascript" src="scripts/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+    <body>
+		<h1>Tweet Analyzer</h1>
+		<button onclick="httpGet('http://localhost:3000/latest')" >
+			Get Latest Ten Tweets
+		</button>
+		<button onclick="httpGet('http://localhost:3000/positive')" >
+			Get Most Positive Ten Tweets
+		</button>
+		<button onclick="httpGet('http://localhost:3000/negative')" >
+			Get Most Negative Ten Tweets
+		</button>
+		<div id="content"></div>
+	</body>
+</html>
+
+<!--
+<html>
+	<head>
+		<script type="text/javascript">
+			function httpGet(theUrl){
+				var xmlHttp = null;
+				xmlHttp = new XMLHttpRequest();
+				xmlHttp.open( "GET", theUrl, false ); // false to make synchronize
+				xmlHttp.send( null );
+				document.getElementById("content").innerHTML = createTable(xmlHttp.responseText);
+			}
+			function createTable(data){
+				var text = "<table border=1><tr><th>Tweet</th><th>Positive</th><th>Neutral</th><th>Negative</th><th>Ovearll</th></tr>";
+				var json = JSON.parse(data);
+				for ( var count in json ){
+					text = text + "<tr>"
+						+ "<td>" + json[count]['tweet']['text'] 
+						+ "</td><td>" + json[count]['positive']
+						+ "</td><td>" + json[count]['neutral']
+						+ "</td><td>" + json[count]['negative']
+						+ "</td><td>" + json[count]['overall']
+						+ "</td></tr>";
+				}
+				return text + "</table>";
+			}
+		</script>
+	</head>
+    <body>
+		<h1>Tweet Analyzer</h1>
+		<button onclick="httpGet('http://localhost:3000/home')" >
+			Get Latest Ten Tweets
+		</button>
+		<button onclick="httpGet('http://localhost:3000/home')" >
+			Get Latest Ten Tweets
+		</button>
+		<button onclick="httpGet('http://localhost:3000/home')" >
+			Get Latest Ten Tweets
+		</button>
+		<div id="content"></div>
+	</body>
+</html>
+-->

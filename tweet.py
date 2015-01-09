@@ -89,8 +89,8 @@ def main():
 			text=""
 			for word in tweet['text'].split():
 				if is_ascii(word):
-					text=text+word
-			print str(count) + "\t: " + tweet['text'] + "\n"
+					text=text+ " "+ word
+			print str(count) + "\t: " + text + "\n"
 			count = count + 1
 			overall, positive, negative, neutral = analyze(text)
 			save_result(connection, tweet, overall, positive, negative, neutral)
