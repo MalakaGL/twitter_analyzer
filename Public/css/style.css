@@ -2,6 +2,23 @@ body {
     background-color: lightblue;
 }
 h1 {
-    color: navy;
-    margin-left: 20px;
+    color: red;
+    text-align: center;
 }
+
+table {
+    style: "text-align:center;
+}
+
+td {
+    text-align: center;
+}
+
+.chart div {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+ }
