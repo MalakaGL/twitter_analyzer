@@ -14,11 +14,32 @@ td {
     text-align: center;
 }
 
-.chart div {
+.chart {
     font: 10px sans-serif;
-    background-color: steelblue;
+    background-color: olivedrab;
     text-align: right;
     padding: 3px;
     margin: 1px;
     color: white;
  }
+
+body {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: red;
+    stroke-width: 2.5px;
+}

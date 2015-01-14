@@ -1,47 +1,28 @@
 <html>
 	<head>
-		<script type="text/javascript" src="scripts/index.js"></script>
 		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="scripts/index.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
     <body>
+	<button onclick="test('2006-01-02','13:59','2015-01-15', '12:00')">Test</button>
 		<h1>Tweet Analyzer</h1>
 		<table>
 			<tr>
 				<td>
-					<button onclick="drawTable('http://localhost:3000/latest')" >
-						Get Latest Ten Tweets
-					</button>
+					<label> From <input type="date" id="date_from"/> <input type="time" id="time_from"> </label>
+					<br>
+					<label> To <input type="date" id="date_to"/> <input type="time" id="time_to"> </label>
+					<br>
+					<button onclick="getRange()">Get Analysis</button>
 				</td>
 				<td>
-					<button onclick="drawTable('http://localhost:3000/positive')" >
-						Get Most Positive Ten Tweets
-					</button>
-				</td>
-				<td>
-					<button onclick="drawTable('http://localhost:3000/negative')" >
-						Get Most Negative Ten Tweets
-					</button>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<button onclick="drawGraph('overall')" >
+					<button onclick="drawOverall()" >
 						Graph of Overall Sentiment
-					</button>
-				</td>
-				<td>
-					<button onclick="drawGraph('positive')" >
-						Graph of Positive Sentiment
-					</button>
-				</td>
-				<td>
-					<button onclick="drawGraph('negative')" >
-						Graph of Negative Sentiment
 					</button>
 				</td>
 			</tr>
 		</table>
-		<div id="content" class="chart"></div>
+		<div id="content"></div>
 	</body>
 </html>
