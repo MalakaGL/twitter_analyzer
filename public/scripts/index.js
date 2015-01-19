@@ -11,7 +11,7 @@
 		function getRange() {
 			var df = document.getElementById('date_from').value;
 			var dt = document.getElementById('date_to').value;
-			var data = httpGet('http://tweetanalyze.herokuapp.com/getData/?date_from='+df+'&date_to='+dt);
+			var data = httpGet('https://tweetanalyze.herokuapp.com/getData/?date_from='+df+'&date_to='+dt);
 			var json = JSON.parse(data);
 			drawGraph(setData(json));
 		}
@@ -55,7 +55,7 @@
 		}
 
 		function drawOverall() {
-			var data = httpGet('http://tweetanalyze.herokuapp.com/graph');
+			var data = httpGet('https://tweetanalyze.herokuapp.com/graph');
 			var json = JSON.parse(data);
 			drawGraph(setData(json));
 		}
