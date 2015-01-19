@@ -16,8 +16,7 @@
     "url": "https://github.com/MalakaGL/twitter_analyzer/issues"
   },
   "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+    "node": "0.10.x"
   },
   "homepage": "https://github.com/MalakaGL/twitter_analyzer",
   "dependencies": {
