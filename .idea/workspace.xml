@@ -2,215 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bc8f8e4-b626-4101-87d6-213f6432d8f2" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Front\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Front\home.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Front\html\home.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Front\html\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Front\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Front\scripts\index.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\Gruntfile.coffee" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\c3.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\c3.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\c3.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\c3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\component.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\extensions\exporter\config.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\extensions\exporter\phantom-exporter.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\extensions\exporter\test.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\extensions\js\c3ext.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\css\c3.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\css\index.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\data\c3_test.csv" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\data\c3_test.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\data\c3_test.tsv" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\data\c3_test2.csv" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\data\c3_test2_ts.csv" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\data\c3_test3.csv" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\data\c3_test_2.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\data\c3_test_3.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\data\c3_test_ts.csv" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\js\c3.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\js\c3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\js\extensions" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\js\require.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\js\samples\plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\js\samples\requirejs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\js\samples\zoom_reduction.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_axis_label.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_axis_range.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_category.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_data_colors.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_flow.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_flow_timeseries.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_legend.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_tooltip_show.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_transform.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_xgrid_lines.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\api_ygrid_lines.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\area_zerobased.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_padding.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_range.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_x_extent.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_x_localtime.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_x_range_timeseries.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_x_tick_culling.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_x_tick_fit.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_x_tick_rotate.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_x_tick_values.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_y2.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\axes_y_default.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\bar_zerobased.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\bindto.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\categorized.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_area.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_area_spline.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_area_spline_stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_area_stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_area_step.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_area_step_stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_bar.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_bar_stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_combination.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_donut.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_gauge.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_pie.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_pie_sort.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_scatter.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_spline.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_step.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\chart_step_category.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\custom_x_categorized.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\custom_x_scale.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\custom_xs_scale.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_columned.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_hide.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_json.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_label.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_label_format.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_load.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_load_timeseries.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_region.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_region_timeseries.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_rowed.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\data_url.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\domain_y.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\element.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\emptydata.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\grid_focus.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\grid_x_lines.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\grid_x_lines_timeseries.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\grids.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\grids_timeseries.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\interaction_enabled.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\legend.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\padding.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\padding_update.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\plugin.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\point_r.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\regions.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\regions_timeseries.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\requirejs.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\selection.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\subchart.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\subchart_onbrush.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\timeseries.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\timeseries_date.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\timeseries_descendent.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\timeseries_raw.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\tooltip_grouped.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\tooltip_show.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\zoom.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\zoom_category.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\zoom_onzoom.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\htdocs\samples\zoom_reduction.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\package.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\api.data-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\api.focus-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\api.grid-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\api.load-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\api.zoom-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\arc-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\axis-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\c3-helper.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\c3-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\class-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\core-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\data-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\domain-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\grid-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\interaction-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\legend-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\shape.bar-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\shape.line-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\tooltip-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\type-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\spec\zoom-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.axis.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.category.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.chart.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.color.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.data.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.flow.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.focus.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.grid.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.group.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.legend.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.load.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.region.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.selection.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.show.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.transform.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.x.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\api.zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\arc.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\axis.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\c3.axis.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\cache.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\category.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\class.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\clip.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\color.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\core.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\data.convert.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\data.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\data.load.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\domain.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\drag.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\format.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\grid.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\head.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\interaction.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\legend.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\region.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\scale.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\selection.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\shape.bar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\shape.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\shape.line.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\size.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\subchart.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\tail.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\text.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\type.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\util.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\Public\scripts\c3-0.4.8\src\zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\dbConnection.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\public\scripts\c3-0.4.8.zip" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\test.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\MalakaGL\MyApp\tweet.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <ignored path="MyApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -267,8 +59,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20564516" vertical-offset="0" max-vertical-offset="901">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.25134408" vertical-offset="0" max-vertical-offset="901">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -551,14 +343,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15069444" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15069444" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2961039" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="230" width="1440" height="399" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -943,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20564516" vertical-offset="0" max-vertical-offset="901">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.25134408" vertical-offset="0" max-vertical-offset="901">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
