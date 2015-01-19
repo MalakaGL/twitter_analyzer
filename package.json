@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/MalakaGL/twitter_analyzer/issues"
   },
-  "homepage": "https://github.com/MalakaGL/twitter_analyzer"
+  "homepage": "https://github.com/MalakaGL/twitter_analyzer",
+  "dependencies": {
+    "express": "^4.11.0",
+    "mongojs": "^0.18.1",
+    "url": "^0.10.2"
+  }
 }

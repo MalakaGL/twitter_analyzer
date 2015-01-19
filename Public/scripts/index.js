@@ -1,5 +1,6 @@
 
-		function httpGet(theUrl, args) {
+		function httpGet(theUrl) {
+			console.log(theUrl);
 			var xmlHttp = null;
 			xmlHttp = new XMLHttpRequest();
 			xmlHttp.open("GET", theUrl, false); // false to make synchronize
@@ -9,26 +10,24 @@
 
 		function getRange() {
 			var df = document.getElementById('date_from').value;
-			var tf = document.getElementById('time_from').value;
-
-			var dt = document.getElementById('date_from').value;
-			var tt = document.getElementById('time_from').value;
-
-			document.getElementById('content').innerHTML = "<p>" + df + "</p>"+tf;
-			//var data = httpGet('http://localhost:8888/getData/df/tf/dt/tt');
-		}
-
-		function test(df, tf, dt, tt){
-			var data = httpGet('http://localhost:8888/getData/?date_from='+df+'&time_from='+tf+'&date_to='+dt+'&time_to='+tt);
-		}
-
-		function setData(attr) {
-			var data = httpGet('http://localhost:8888/graph',null);
+			var dt = document.getElementById('date_to').value;
+			var data = httpGet('http://localhost:8888/getData/?date_from='+df+'&date_to='+dt);
 			var json = JSON.parse(data);
+			drawGraph(setData(json));
+		}
+
+		function setData(json) {
 			var data_filtered = [];
 			for (var count in json) {
-				data_filtered.push({'date_tweet': json[count]['tweet']['created_at'], 'sentiment': json[count][attr]});
+				data_filtered.push({'date_tweet': json[count]['tweet']['created_at'], 'sentiment': json[count]['overall']});
 			}
+			data_filtered.sort(function(a,b){
+				return new Date(a.date_tweet) - new Date(b.date_tweet);
+			});
+			return data_filtered;
+		}
+
+		function aggregate(data_filtered){
 			var data_aggregated = [];
 			var start = data_filtered[0].date_tweet;
 			var start_time = new Date(start);
@@ -43,7 +42,6 @@
 					if (count === 0)
 						count = 1;
 					data_aggregated.push({'date_tweet': start, 'sentiment': sentiment_sum/count});
-					console.log(start + "  " + sentiment_sum + "  " + count);
 					sentiment_sum = 0;
 					if(t + 1<data_filtered.length){
 						start = data_filtered[t+1].date_tweet;
@@ -52,15 +50,17 @@
 					}
 				}
 			};
+
 			return data_aggregated;
 		}
 
 		function drawOverall() {
-			drawGraph(setData('overall'));
+			var data = httpGet('http://localhost:8888/graph');
+			var json = JSON.parse(data);
+			drawGraph(setData(json));
 		}
 
 		function drawGraph(data) {
-			document.getElementById("content").innerHTML = "";
 			var margin = {top: 20, right: 20, bottom: 30, left: 50},
 				width = 960 - margin.left - margin.right,
 				height = 500 - margin.top - margin.bottom;
@@ -93,7 +93,7 @@
 
 			d3.select("svg").remove();
 
-			var svg = d3.select("body").append("svg")
+			var svg = d3.select("#content").append("svg")
 				.attr("width", width + margin.left + margin.right)
 				.attr("height", height + margin.top + margin.bottom)
 				.append("g")

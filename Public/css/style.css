@@ -1,32 +1,3 @@
-body {
-    background-color: lightblue;
-}
-h1 {
-    color: red;
-    text-align: center;
-}
-
-table {
-    style: "text-align:center;
-}
-
-td {
-    text-align: center;
-}
-
-.chart {
-    font: 10px sans-serif;
-    background-color: olivedrab;
-    text-align: right;
-    padding: 3px;
-    margin: 1px;
-    color: white;
- }
-
-body {
-    font: 10px sans-serif;
-}
-
 .axis path,
 .axis line {
     fill: none;

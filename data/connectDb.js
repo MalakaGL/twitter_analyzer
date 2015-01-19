@@ -15,7 +15,6 @@ mongoose.connect('mongodb://allion:allion123@ds031271.mongolab.com:31271/twitter
 tweets = mongoose.model(
     'Tweets',
     new Schema({
-        '_id': Number,
         timestamp: String,
         tweet: Object,
         positive: Number,
@@ -30,15 +29,21 @@ var getData = function(sorting, order, limit, callBack){
     var q = {};
     query.sort({'tweet.created_at':1}).limit(limit);
     query.exec(function(err, data) {
-        callBack(err, data)
+        callBack(err, data);
     });
 };
 
 var getRange = function(args, callBack){
-    var from = args['date_from']+" "+args['time_from'];
-    console.log(new Date(from).toDateString());
-    var query = tweets.find({});
-    query.where('tweet.created_at').gt()
+    var from = new Date(args['date_from']);
+    var to = new Date(args['date_to']);
+    var from_id = Math.floor(from.getTime() / 1000).toString(16) + "0000000000000000";
+    var to_id = Math.floor(to.getTime() / 1000).toString(16) + "0000000000000000";
+
+    var query = tweets.find({}, { 'tweet.created_at' : 1, 'overall': 1 });
+    query.where("_id").gt(from_id);
+    query.exec(function(err, data) {
+        callBack(err, data);
+    });
 }
 
 module.exports.data = getData;

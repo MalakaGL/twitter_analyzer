@@ -1,28 +1,54 @@
 <html>
 	<head>
+	</head>
+
+    <body class="bg-danger">
+		<div class="container bg-info"">
+			<div class="row">
+					<h1 class="bg-primary text-center">Tweet Analyzer</h1>
+			</div>
+
+			<div>
+				<div class="row">
+					<div class="col-md-6">
+						<button type="button" class="btn btn-primary" onclick="drawOverall()" >
+							Graph of Overall Sentiment
+						</button>
+					</div>
+					<div class="col-md-6">
+						<p><b>Get Sentiment of Selected Tweets </b></p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6"></div>
+					<form class="form-horizontal col-md-6">
+						<div class="form-group">
+							<label for="date_from" class="col-sm-2 control-label">From</label>
+							<div class="col-sm-10">
+								<input type="date" class="form-control" id="date_from" placeholder="Select date">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="date_to" class="col-sm-2 control-label">To</label>
+							<div class="col-sm-10">
+								<input type="date" class="form-control" id="date_to" placeholder="Select date">
+							</div>
+						</div>
+						<button type="button" class="btn btn-primary" onclick="getRange()">
+							Create Graph
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="bg-success" id="content"></div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
 		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 		<script type="text/javascript" src="scripts/index.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-    <body>
-	<button onclick="test('2006-01-02','13:59','2015-01-15', '12:00')">Test</button>
-		<h1>Tweet Analyzer</h1>
-		<table>
-			<tr>
-				<td>
-					<label> From <input type="date" id="date_from"/> <input type="time" id="time_from"> </label>
-					<br>
-					<label> To <input type="date" id="date_to"/> <input type="time" id="time_to"> </label>
-					<br>
-					<button onclick="getRange()">Get Analysis</button>
-				</td>
-				<td>
-					<button onclick="drawOverall()" >
-						Graph of Overall Sentiment
-					</button>
-				</td>
-			</tr>
-		</table>
-		<div id="content"></div>
 	</body>
 </html>

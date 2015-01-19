@@ -11,32 +11,13 @@ app.get('/', function(req, res) {
     res.sendFile('index.html', {root: 'public/html' })
 });
 
-app.get('/latest', function(req, res) {
-	db.data('_id', -1, 10, function(err, data){
-		res.json(data);
-	})
-})
-
-app.get('/positive', function(req, res) {
-	db.data('positive', -1, 10, function(err, data){
-		res.json(data);
-	})
-});
-
-app.get('/negative', function(req, res) {
-	db.data('negative', -1, 10, function(err, data){
-		res.json(data);
-	})
-});
-
 app.get('/graph', function(req, res) {
 	db.data('_id', 1, 1000, function(err, data){
-		console.log(data);
 		res.json(data);
 	})
 });
 
-app.get('/getData', function(req, res) {
+app.get('/getData/', function(req, res) {
 	db.getDataRange(req['query'], function(err, data){
 		res.json(data);
 	})
@@ -47,3 +28,22 @@ var server = app.listen(port, function () {
 	var port = server.address().port
 	console.log('Example app listening at http://%s:%s', host, port)
 })
+
+
+//app.get('/latest', function(req, res) {
+//	db.data('_id', -1, 10, function(err, data){
+//		res.json(data);
+//	})
+//})
+//
+//app.get('/positive', function(req, res) {
+//	db.data('positive', -1, 10, function(err, data){
+//		res.json(data);
+//	})
+//});
+//
+//app.get('/negative', function(req, res) {
+//	db.data('negative', -1, 10, function(err, data){
+//		res.json(data);
+//	})
+//});
