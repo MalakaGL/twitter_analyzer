@@ -15,6 +15,10 @@
   "bugs": {
     "url": "https://github.com/MalakaGL/twitter_analyzer/issues"
   },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
   "homepage": "https://github.com/MalakaGL/twitter_analyzer",
   "dependencies": {
     "express": "^4.11.0",
