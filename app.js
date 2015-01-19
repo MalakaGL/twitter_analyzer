@@ -23,11 +23,9 @@ app.get('/getData/', function(req, res) {
 	})
 });
 
-var server = app.listen(port, function () {
-	var host = server.address().address
-	var port = server.address().port
-	console.log('Example app listening at http://%s:%s', host, port)
-})
+var server = http.listen(process.env.PORT || 3000, function(){
+	console.log('listening on', http.address().port);
+});
 
 
 //app.get('/latest', function(req, res) {
