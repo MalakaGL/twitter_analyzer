@@ -5,6 +5,7 @@ var db = require('./data/connectDb.js')
 var port = 8888
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.disable('quiet');
 
 app.get('/', function(req, res) {
 	console.log(req.path)
