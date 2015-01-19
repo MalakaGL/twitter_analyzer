@@ -104,6 +104,4 @@ def main():
 			count = count + 1
 			print "Sleeping..." + str(count)
 			time.sleep(5)
-
-
 main()
